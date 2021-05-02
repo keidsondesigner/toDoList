@@ -14,5 +14,6 @@
 > Dia 1: Comecei a codar, estrurando toda a parte do HTML e partindo para a estiliozação com CSS;<br>
 > Dia 3: Ora de trabalhar as funções com o javascript;<br>
 > Dia 5: Aplicando save in localStorage;
-
+> <br>
+> 💻Confira aqui o resultado!
 https://keidsondesigner.github.io/toDoList/
