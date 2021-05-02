@@ -15,4 +15,4 @@
 > Dia 3: Ora de trabalhar as funções com o javascript;<br>
 > Dia 5: Aplicando save in localStorage;
 
-https://keidsondesigner.github.io/cronometro/
+https://keidsondesigner.github.io/toDoList/
