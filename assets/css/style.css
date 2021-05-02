@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    outline:0;
+}
+
+h1, h2, h3, h4, h5, h6, i {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #527cb3;
+    
+}
+
+h1 {
+    color: #426696;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #426695;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.glass {
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display:flex;
+}
+
+.circle1, .circle2{
+    background: white;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.8),
+    rgba(255,255,255,0.3));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius:50%;
+}
+
+.circle1 {
+    top:5%;
+    right:15%;
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 10%;
+}
+
+.dashboard img {
+    border-radius: 50%;
+    width: 140px;
+}
+
+
+.dashboard {
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3));
+    border-radius: 2rem 0rem 0rem 2rem;
+}
+
+
+.link i {
+    color: #527cb3;
+    font-size:1.5rem;
+}
+
+.link {
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+.link h2{
+    padding: 0rem 2rem;
+}
+
+.games {
+    flex: 2;
+}
+
+/*///////////////       STATUS           /////////////////////*/
+
+
+.status .content-input-button {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin-top: 2rem;
+}
+
+button {
+    background: #F8D57E;
+    padding:0.8rem 1.5rem;
+    border: none;
+    border-radius: 0.7rem;
+    color: #332C49;
+
+    margin: 0 5px;
+    cursor: pointer;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 6px 6px 10px rgba(122,122,122,0.212);
+}
+
+.status input{
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3));
+    border: none;
+    width:70%;
+
+    padding:0.8rem;
+    border-radius: 0.7rem;
+    margin: 0 0;
+
+    font-size: 1rem;
+    color: #426696;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    opacity: 0.8;
+    box-shadow: 6px 6px 10px rgba(122,122,122,0.212);
+}
+
+
+.games {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    margin:  5rem;
+}
+
+
+/*
+.fa-trash:before {
+    color:tomato;
+}
+*/
+
+.card {
+    display: flex;
+    align-items: center;
+
+    padding: 1rem;
+    margin-top: 2rem;
+
+    border-radius: 1rem;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3));
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.212);
+
+}
+
+li {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.2rem;
+    color: rgb(66, 102, 149);
+    font-weight: 400;
+    list-style: none;
+
+    padding: 1rem;
+    margin-top: 2rem;
+
+    border-radius: 1rem;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3));
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.212);
+}
+
+
+
+
+
+
+  
+
