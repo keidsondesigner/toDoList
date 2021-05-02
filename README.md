@@ -13,7 +13,8 @@
 ## ✨Sobre a Lista de Tarefa.
 > Dia 1: Comecei a codar, estrurando toda a parte do HTML e partindo para a estilização com CSS;<br>
 > Dia 3: Ora de trabalhar as funções com o javascript;<br>
-> Dia 5: Aplicando save in localStorage;
+> Dia 5: Aplicando save in localStorage;<br>
+> Dia 7: Hora de subir o projeto no Git e mandar para a Vercel;
 > <br>
 > <br>
 > 💻Confira aqui o resultado!
