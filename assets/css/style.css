@@ -186,12 +186,9 @@ button {
     margin:  5rem;
 }
 
-
-/*
-.fa-trash:before {
+.fa-trash:hover {
     color:tomato;
 }
-*/
 
 .card {
     display: flex;
