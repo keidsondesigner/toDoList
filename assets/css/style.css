@@ -266,10 +266,20 @@ li {
     }
 
     .dashboard img {
-        width: 100px;
+        width: 90px;
+    }
+
+    .link {
+        display: flex;
+        margin: 2rem 0rem;
+        padding: 0rem 2rem;
+
+    }
+
+    .link h2 {
+        padding-left: 1rem;
     }
 }
-
 
 
 
