@@ -240,6 +240,15 @@ li {
     min-height: 80vh;
     width:95%;
     }
+    
+     a:link {
+        color: #426695;
+      }
+    
+    a:visited{
+        color: #426695;
+
+    }
 }
 
 
@@ -280,8 +289,13 @@ li {
         padding-left: 1rem;
     }
     
+    a:link {
+        color: #426695;
+      }
+    
     a:visited{
         color: #426695;
+
     }
 }
 
