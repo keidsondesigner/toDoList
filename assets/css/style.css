@@ -243,6 +243,37 @@ li {
 }
 
 
+@media only screen and (max-width: 768px) {
+
+    .glass {
+        min-height: 60vh;
+        width:95%;
+        }
+
+    .games {
+        margin:0rem 0rem;
+        display:flex;
+        flex-direction: column;
+    }
+    .status {
+        margin:0rem 1.5rem;
+
+    }
+
+    .btn-tarefa{
+        margin: 0 0;
+        margin-left: 5px;
+    }
+
+    .dashboard img {
+        width: 120px;
+    }
+}
+
+
+
+
+
 
 
   
